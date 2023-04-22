@@ -128,8 +128,8 @@ def main(username,message,thread_number):
         title()
     
 
-message = 'Hello baby'
-username = 'fukiwubdi'
+message = input("Enter Message > ")
+username = input("Enter Username > ")
 
 def loop(i):
     if len(str(i)) == 1:
